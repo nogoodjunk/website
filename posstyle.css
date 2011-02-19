@@ -1,0 +1,117 @@
+#navlist{
+margin-bottom: 10px;
+font: bold 12px Arial, sans-serif;
+float: right;}
+
+#navlist li{ 
+list-style-type: none;
+margin: 0px 0px 0px 0px;
+padding: 5px 0 5px 5px;}
+
+#navlist li a{
+display: block;
+padding: 5px 5px 5px 5px;
+border: 1px solid #777;
+border-right: none;
+background: #DDD;
+text-decoration: none;}
+
+html body #navcontainer li a { width: auto;}
+#navlist li a:link { color: #999; }
+#navlist li a:visited { color: #699; }
+
+#navlist li a:hover,
+#naflist li a:focus{
+color: #F11;
+background: #999;
+border-color: #444;}
+
+#navlist li a#current{
+background: white;
+border-right: 1px solid white;
+color: black;}
+
+#container
+{  margin-right: auto; margin-bottom: 1em; }
+
+#header{
+padding: .5em;
+border-bottom: 5px solid gray;
+line-height: 130%;
+clear: left;
+z-index: 1;
+visibility: visible;
+background-color: #006;
+color: #fff;}
+
+#navcontainer{
+float: left;
+margin: 0px 0px 0px 10px;
+padding: 10px 0px 0px 0px;
+border-right: 1px solid gray;
+border-bottom: 1px solid gray;
+width: 150px;}
+
+#towson, #cp{
+border-top: 1px solid #777;
+}
+
+#main{margin: .5em 1em .5em 200px;
+max-width: 42em;
+font-family: Verdana, Arial, sans-serif;
+font-size: .9em;
+} 
+
+#footer{
+clear: both;
+margin: 0 0 0 0;
+padding: .5em .5em .5em .5em;
+color: #333;
+background-color: #ddd;
+border-top: 1px solid gray;
+border-bottom: 1px solid gray;
+font-size: .6em; 
+font-family: Verdana, Arial, sans-serif;
+color: gray;
+position: relative; top: 2.5em;
+}
+
+body  { background-color: #fff; margin: 0px }
+#main li{
+list-style-position: inside;}
+
+/* the addresses */
+#navcontainer p{ 
+font-family: Verdana, Arial, sans-serif;
+font-size: .7em;
+color: black;}
+
+#sympathy{
+font-family: Verdana, Arial, sans-serif;
+font-size: .9em;
+color: #b6b;}
+
+.dropcap{
+font-size: 1.9em;
+float: left;
+margin: 0px 6px 0px 0px;}
+
+#ad{
+font-family: Verdana, Arial, sans-serif;
+font-size: .9em;
+margin: 1em 0 0 0;
+padding: 1em 1em 1em 1em;}
+
+#homepage h1 { font-family: "helvetica neue", helvetica, arial, sans-serif; line-height: 1.3em;  }
+
+h2  { color: red; font-variant: small-caps; letter-spacing: 1.3px }
+#sympathy img { float: right; margin: 8px }
+
+#ad img  { margin: 8px auto; width: auto }
+#sympathy strong{ word-spacing: 5px; }
+.pullout  { color: #000080; font-style: italic; font-weight: bold; font-size: 1em; background-color: #dcdcdc; text-align: justify; text-indent: 1em; margin: 0.5em; padding: 0.5em; border: dotted 1px black; }
+#photos { background-color: #dcdcdc; float: right; margin: 0.5em }
+h3 { font-weight: bold; font-size: 1em }
+#sale { color: #fff; background-color: #228b22; border: solid 2pt #f00 }
+#headline  { color: red; font-variant: small-caps; font-weight: bold; font-size: 1.5em; letter-spacing: 1.3px }
+#subhead  { color: black; font-style: italic; font-weight: bold; font-size: 1em }
